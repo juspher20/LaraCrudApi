@@ -20,7 +20,6 @@ class CreateStudentsInfoTable extends Migration
             $table->string('lastname',50);
             $table->string('email', 50);
             $table->string('address',100);
-            $table->integer('phone',20);
             $table->timestamps();
         });
     }
